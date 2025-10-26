@@ -1,8 +1,8 @@
-Healthcare Facilities Extractor
+# Healthcare Facilities Extractor
 
 A Python-based data extraction and cleaning pipeline designed to explore healthcare facility datasets, clean them for analysis, and extract hyperlinks from PDF reports for downstream use in Retrieval-Augmented Generation (RAG) systems.
 
-Setup
+# Setup
 1. Clone this repository
 git clone https://github.com/mehdighach/healthcare-facilities-extractor.git
 cd healthcare-facilities-extractor
@@ -14,7 +14,7 @@ python -m venv venv
 3. Install dependencies
 pip install -r requirements.txt
 
-Usage
+# Usage
 1. Explore the dataset
 
 Run this script to verify the file and preview the first rows:
@@ -22,7 +22,7 @@ Run this script to verify the file and preview the first rows:
 python explore_data.py
 
 
-Output Example:
+# Output Example:
 
 File found. Size: 1514321 bytes
 Loaded successfully.
